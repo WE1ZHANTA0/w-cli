@@ -1,0 +1,32 @@
+{
+  "name": "w-cli",
+  "version": "1.0.0",
+  "description": "我的脚手架",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WE1ZHANTA0/w-cli.git"
+  },
+  "author": "WE1ZHANTA0",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WE1ZHANTA0/w-cli/issues"
+  },
+  "homepage": "https://github.com/WE1ZHANTA0/w-cli#readme",
+  "bin": {
+    "w-cli": "index.js"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^6.1.0",
+    "download": "^8.0.0",
+    "git-repo": "^0.1.1",
+    "handlebars": "^4.7.6",
+    "inquirer": "^7.3.3",
+    "log-symbols": "^4.0.0",
+    "ora": "^5.0.0"
+  }
+}
